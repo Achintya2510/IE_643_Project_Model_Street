@@ -1,0 +1,6 @@
+variant,depth,checkpoint_path,checkpoint_available,status
+resnet18,18,D:\IE_643_Project\pre_trained_model_weights\resnet18_cifar10_trained.pth,True,ready
+resnet34,34,D:\IE_643_Project\pre_trained_model_weights\resnet34_cifar10.pth,True,ready
+resnet50,50,D:\IE_643_Project\pre_trained_model_weights\resnet50_cifar10 .pth,True,ready
+resnet101,101,D:\IE_643_Project\pre_trained_model_weights\resnet101_cifar10_final_state_dict.pth,True,ready
+resnet152,152,D:\IE_643_Project\pre_trained_model_weights\resnet152_cifar10.pth,True,ready

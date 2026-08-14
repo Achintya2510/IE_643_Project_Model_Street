@@ -1,0 +1,6 @@
+variant,SSIM_count,SSIM_mean,SSIM_std,PSNR_count,PSNR_mean,PSNR_std,MSE_count,MSE_mean,MSE_std,nearest_embedding_cosine_count,nearest_embedding_cosine_mean,nearest_embedding_cosine_std,target_confidence_count,target_confidence_mean,target_confidence_std,runtime_seconds_count,runtime_seconds_mean,runtime_seconds_std,evidence_status
+resnet101,9,0.013957,0.027575,9,8.207377,0.900977,9,0.154091,0.033145,9,0.812319,0.177222,9,1.0,0.0,9,683.111963,120.724316,complete_9_rows
+resnet152,2,0.007027,0.045127,2,8.875859,0.685445,2,0.130351,0.020488,2,0.78204,0.018177,2,1.0,1e-06,2,1085.966413,86.765409,partial_2_rows
+resnet18,9,0.01826,0.018514,9,9.494478,2.630608,9,0.132619,0.083376,9,0.713195,0.190945,9,0.129274,0.017392,9,114.861193,15.562062,complete_9_rows
+resnet34,9,0.003897,0.033994,9,9.105856,1.492065,9,0.129287,0.042614,9,0.92761,0.03819,9,1.0,0.0,9,235.525044,38.448093,complete_9_rows
+resnet50,9,0.003212,0.053938,9,7.631039,0.455107,9,0.17338,0.017999,9,0.759237,0.072407,9,0.999994,9e-06,9,352.389156,34.004315,complete_9_rows

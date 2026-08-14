@@ -1,0 +1,29 @@
+{
+  "completed_rows": 38,
+  "complete_variants": [
+    "resnet101",
+    "resnet18",
+    "resnet34",
+    "resnet50"
+  ],
+  "partial_variants": [
+    "resnet152"
+  ],
+  "best_mean_ssim": {
+    "variant": "resnet18",
+    "value": 0.01826045699029539
+  },
+  "best_mean_psnr": {
+    "variant": "resnet18",
+    "value": 9.494478146100017
+  },
+  "best_mean_mse": {
+    "variant": "resnet34",
+    "value": 0.12928693493207294
+  },
+  "best_mean_embedding_cosine": {
+    "variant": "resnet34",
+    "value": 0.9276100794474283
+  },
+  "recommended_project_framing": "Objective-level optimization improves reconstruction versus the baseline. Across checkpoints, ResNet34 is the best practical trade-off because it gives the strongest embedding alignment and best mean MSE among complete variants, while ResNet18 remains fast and numerically strong on SSIM/PSNR but weaker for class-faithful semantic inversion. ResNet50/ResNet101 are useful deep-model comparisons but do not dominate all metrics, and ResNet152 evidence is partial."
+}

@@ -1,0 +1,34 @@
+# Python/Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local environments and secrets
+.env
+.env.*
+*.pem
+venv/
+.venv/
+
+# Large reproducible datasets/checkpoints
+data/
+Pre_trained_model_weights/
+results/**/cache/
+*.pt
+*.pth
+
+# Raw archives and presentation/report exports
+*.tar.gz
+*.zip
+*.pptx
+*.docx
+*.pdf
+
+# Logs/temp files
+*.log
+*.tmp
+
+# Local agent instructions / nested repo metadata
+AGENTS.md
+Model_street_final/

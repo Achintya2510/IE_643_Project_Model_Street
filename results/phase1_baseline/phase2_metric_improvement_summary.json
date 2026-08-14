@@ -1,0 +1,101 @@
+{
+  "phase1_mean": {
+    "SSIM": 0.014671479248338245,
+    "PSNR": 7.801808742678694,
+    "MSE": 0.17169590377145338,
+    "nearest_embedding_cosine": 0.7069238954120212,
+    "target_confidence": 0.1731193429893917,
+    "runtime_seconds": 39.56789077777002
+  },
+  "phase2_mean_by_objective": [
+    {
+      "objective_name": "deepinv_margin",
+      "SSIM": 0.013436752707800911,
+      "PSNR": 6.846427920666664,
+      "MSE": 0.20922329525152839,
+      "nearest_embedding_cosine": 0.7075404127438863,
+      "target_confidence": 0.19958455032772482,
+      "runtime_seconds": 35.5066289999781,
+      "candidate_score": 0.31794611546728346
+    },
+    {
+      "objective_name": "phase1_registered",
+      "SSIM": 0.010179443750530455,
+      "PSNR": 7.61872458166892,
+      "MSE": 0.17647087408436668,
+      "nearest_embedding_cosine": 0.7067973216374716,
+      "target_confidence": 0.1688088625669479,
+      "runtime_seconds": 37.3214015777792,
+      "candidate_score": 0.31399000030424856
+    },
+    {
+      "objective_name": "plug_in_aug_sigmoid",
+      "SSIM": 0.01826045699029539,
+      "PSNR": 9.494478146100017,
+      "MSE": 0.13261850095457495,
+      "nearest_embedding_cosine": 0.7131945755746629,
+      "target_confidence": 0.12927389310465914,
+      "runtime_seconds": 114.861192622222,
+      "candidate_score": 0.2742698645426167
+    }
+  ],
+  "summary": [
+    {
+      "objective_name": "deepinv_margin",
+      "SSIM": 0.013436752707800911,
+      "PSNR": 6.846427920666664,
+      "MSE": 0.20922329525152839,
+      "nearest_embedding_cosine": 0.7075404127438863,
+      "target_confidence": 0.19958455032772482,
+      "runtime_seconds": 35.5066289999781,
+      "candidate_score": 0.31794611546728346,
+      "delta_SSIM": -0.0012347265405373339,
+      "delta_PSNR": -0.9553808220120299,
+      "delta_MSE": 0.037527391480075,
+      "delta_nearest_embedding_cosine": 0.0006165173318651851,
+      "delta_target_confidence": 0.02646520733833313,
+      "delta_runtime_seconds": -4.06126177779192,
+      "mse_reduction_pct": -21.85689387792745,
+      "ssim_change_pct": -8.415828558508743,
+      "psnr_change_pct": -12.245632436306133
+    },
+    {
+      "objective_name": "phase1_registered",
+      "SSIM": 0.010179443750530455,
+      "PSNR": 7.61872458166892,
+      "MSE": 0.17647087408436668,
+      "nearest_embedding_cosine": 0.7067973216374716,
+      "target_confidence": 0.1688088625669479,
+      "runtime_seconds": 37.3214015777792,
+      "candidate_score": 0.31399000030424856,
+      "delta_SSIM": -0.00449203549780779,
+      "delta_PSNR": -0.18308416100977354,
+      "delta_MSE": 0.004774970312913296,
+      "delta_nearest_embedding_cosine": -0.00012657377454960983,
+      "delta_target_confidence": -0.00431048042244378,
+      "delta_runtime_seconds": -2.246489199990819,
+      "mse_reduction_pct": -2.781062452875591,
+      "ssim_change_pct": -30.617468230523357,
+      "psnr_change_pct": -2.346688659621165
+    },
+    {
+      "objective_name": "plug_in_aug_sigmoid",
+      "SSIM": 0.01826045699029539,
+      "PSNR": 9.494478146100017,
+      "MSE": 0.13261850095457495,
+      "nearest_embedding_cosine": 0.7131945755746629,
+      "target_confidence": 0.12927389310465914,
+      "runtime_seconds": 114.861192622222,
+      "candidate_score": 0.2742698645426167,
+      "delta_SSIM": 0.0035889777419571434,
+      "delta_PSNR": 1.6926694034213225,
+      "delta_MSE": -0.03907740281687844,
+      "delta_nearest_embedding_cosine": 0.006270680162641762,
+      "delta_target_confidence": -0.043845449884732546,
+      "delta_runtime_seconds": 75.29330184445199,
+      "mse_reduction_pct": 22.759659350344705,
+      "ssim_change_pct": 24.462275965551644,
+      "psnr_change_pct": 21.695858732883483
+    }
+  ]
+}

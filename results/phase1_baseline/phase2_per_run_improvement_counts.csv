@@ -1,0 +1,4 @@
+objective_name,runs,ssim_improved_runs,psnr_improved_runs,mse_improved_runs,cosine_improved_runs
+deepinv_margin,9,3,2,2,5
+phase1_registered,9,3,4,4,5
+plug_in_aug_sigmoid,9,5,7,7,6
